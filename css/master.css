@@ -416,7 +416,7 @@ header .nav .fa-bars:hover + ul li a{
     padding-top: 60px ;
     padding-bottom: 60px ;
     height: 500px;
-    background-image: url(../images/paint.jpg);
+    background-image: url(Kasper-design/images/paint.jpg);
     background-size: cover;
     position: relative;
     display: flex;
@@ -715,7 +715,7 @@ header .nav .fa-bars:hover + ul li a{
 /* Start Stat */
 
 .stat{
-    background-image: url(../images/stat.jpg);
+    background-image: url(Kasper-design/images/stat.jpg);
     background-size: cover;
     position: relative;
     text-align: center;
@@ -973,7 +973,7 @@ header .nav .fa-bars:hover + ul li a{
 .quote{
     padding-top: 60px;
     padding-bottom: 60px;
-    background-image: url(../images/background-autor.png);
+    background-image: url(Kasper-design/images/background-autor.png);
     height: 300px;
     background-size: cover;
     position: relative;
@@ -1183,7 +1183,7 @@ header .nav .fa-bars:hover + ul li a{
 .pic-email{
     padding-top: 60px;
     padding-bottom: 60px;
-    background-image: url(../images/background-pic-email.png);
+    background-image: url(Kasper-design/images/background-pic-email.png);
     background-size: cover;
     position: relative;
     height: 300px;
@@ -1395,7 +1395,7 @@ footer{
     text-align: center;
     padding-top: 60px;
     padding-bottom: 20px;
-    background-image: url(../images/footer.jpg);
+    background-image: url(Kasper-design/images/footer.jpg);
     background-size: cover;
     position: relative;
 }
