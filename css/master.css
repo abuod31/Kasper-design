@@ -234,7 +234,7 @@ header .nav .fa-bars:hover + ul li a{
 
 .landing{
     min-height: 100vh;
-    background-image: url(Kasper-design/images/main-background.png);
+    background-image: url(Kasper-design/images/main.png);
     background-size: cover;
     position: relative;
 }
