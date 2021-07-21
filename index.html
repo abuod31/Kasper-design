@@ -20,18 +20,18 @@
 
 <body>
     <!-- Start header -->
-    <header>
+    <header id="Home">
         <div class="container">
-            <a href="#"><img src="./images/logo.png" alt="Logo"></a>
+            <a href="#Home"><img src="./images/logo.png" alt="Logo"></a>
             <div class="nav">
                 <i class="fas fa-bars"></i>
                 <ul>
-                    <li><a class="active" href="#">Home</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Portofolio</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Pricing</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a class="active" href="#Home">Home</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#Portofolio">Portofolio</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Pricing">Pricing</a></li>
+                    <li><a href="#Contact">Contact</a></li>
                 </ul>
                 <div class="search-icon">
                     <i class="fas fa-search"></i>
@@ -70,7 +70,7 @@
 
     <!-- start Services -->
 
-    <div class="sevices">
+    <div class="sevices" id="Services">
         <div class="container">
             <div class="heading">
                 <h2>Services</h2>
@@ -140,7 +140,7 @@
     <!-- End Design -->
 
     <!-- Start Portofolio -->
-    <div class="portfolio">
+    <div class="portfolio" id="Portofolio">
         <div class="container">
             <div class="heading">
                 <h2>Portfolio</h2>
@@ -235,7 +235,7 @@
 
     <!-- Start About -->
 
-    <div class="about">
+    <div class="about" id="About">
         <div class="container">
             <div class="heading">
                 <h2>About us</h2>
@@ -367,7 +367,7 @@
 
     <!-- Start pricing -->
 
-    <div class="pricing">
+    <div class="pricing" id="Pricing">
         <div class="container">
             <div class="heading">
                 <h2>Pricing</h2>
@@ -468,7 +468,7 @@
 
     <!-- Start Contact Us -->
 
-    <div class="contact">
+    <div class="contact" id="Contact">
         <div class="container">
             <div class="heading">
                 <h2>Contact Us</h2>
@@ -480,7 +480,7 @@
                 <form action="">
                     <input type="text" placeholder="Your name">
                     <input type="email" placeholder="Your Mail">
-                    <input type="text" placeholder="Your Message">
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message"></textarea>
                     <input type="submit" value="Send message">
                 </form>
                 <div class="numbers">

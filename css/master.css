@@ -483,6 +483,8 @@ header .nav .fa-bars:hover + ul li a{
 /* Start Portfolio */
 
 .portfolio{
+    padding-top: 60px;
+    padding-bottom: 60px;
     position: relative;
 }
 
@@ -1316,11 +1318,7 @@ header .nav .fa-bars:hover + ul li a{
     flex-basis: 75%;    
 }
 
-.contact .data form input:nth-child(3){
-    height: 200px;
-}
-
-.contact .container .data form input:not(:last-child){
+.contact .container .data form input:not(:last-child), textarea{
     width: 100%;
     border: 1px solid #ccc;
     margin-bottom: 20px;
@@ -1328,7 +1326,7 @@ header .nav .fa-bars:hover + ul li a{
     outline-style: none;
 }
 
-.contact .data form input:not(:last-child)::placeholder{
+.contact .data form input::placeholder, textarea::placeholder{
     text-transform: uppercase;
     font-size: 12px;
     font-weight: normal;
@@ -1464,5 +1462,6 @@ footer .last p{
 
 footer .last p span{
     color: var(--main-color);
+    font-weight: bold;
 }
 /* End footer */
