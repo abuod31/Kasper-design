@@ -416,7 +416,7 @@ header .nav .fa-bars:hover + ul li a{
     padding-top: 60px ;
     padding-bottom: 60px ;
     height: 500px;
-    background-image: url(./images/paint.jpg);
+    background-image: url(Kasper-design/images/paint.jpg);
     background-size: cover;
     position: relative;
     display: flex;
@@ -717,7 +717,7 @@ header .nav .fa-bars:hover + ul li a{
 /* Start Stat */
 
 .stat{
-    background-image: url(./images/stat.jpg);
+    background-image: url(../../images/stat.jpg);
     background-size: cover;
     position: relative;
     text-align: center;
